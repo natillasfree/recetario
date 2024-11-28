@@ -37,7 +37,7 @@ export class EditRecipeComponent implements OnInit {
 
   loadRecipe(): void {
     this.fireService.getRecipeById(this.recipeId).subscribe((data) => {
-      this.recipe = data || this.recipe; // Asignar los datos de Firestore
+      this.recipe = data || this.recipe;
     });
   }
 
@@ -45,7 +45,7 @@ export class EditRecipeComponent implements OnInit {
     if (this.recipe) {
       this.fireService.updateRecipe(this.recipeId, this.recipe).then(() => {
         console.log('Receta actualizada con éxito');
-        this.router.navigate(['/recipes/favorites']); // Cambia la ruta aquí
+        this.router.navigate(['/recipes/favorites']);
       });
     }
   }

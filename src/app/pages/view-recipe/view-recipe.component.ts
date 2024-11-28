@@ -18,10 +18,6 @@ import { CommonModule, JsonPipe } from '@angular/common';
 export class ViewRecipeComponent {
   apiS = inject(ApiService);
 
-  /*
-   @Input()
-   id: string | undefined;
-  */
   id = input.required<string>();
 
   $state: WritableSignal<any> = signal({

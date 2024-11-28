@@ -32,7 +32,6 @@ export class FireService {
     return this.itemCollection.doc(id).delete();
   }
 
-  // Obtener una receta específica por ID
   getRecipeById(id: string): Observable<Recipe> {
     return this.itemCollection
       .doc<Recipe>(id)
@@ -47,19 +46,17 @@ export class FireService {
       );
   }
 
-  // Obtener todas las recetas
   getRecipes(): Observable<Recipe[]> {
     return this.items$;
   }
 
-  // Obtener recetas con ID incluido
   getRecipesWithID(): Observable<Recipe[]> {
     return this.itemCollection.snapshotChanges().pipe(
       map((actions) =>
         actions.map((a) => {
           const data = a.payload.doc.data() as Recipe;
-          const idMeal = a.payload.doc.id; // ID del documento
-          return { idMeal, ...data }; // Retornamos el ID junto con los datos
+          const idMeal = a.payload.doc.id;
+          return { idMeal, ...data };
         })
       )
     );

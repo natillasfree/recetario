@@ -17,10 +17,6 @@ import { FireService } from '../../services/fire.service';
 export class ViewFavoriteComponent {
   fire = inject(FireService);
 
-  /*
-   @Input()
-   id: string | undefined;
-  */
   id = input.required<string>();
 
   $state: WritableSignal<any> = signal({
