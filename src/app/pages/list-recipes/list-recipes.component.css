@@ -13,26 +13,42 @@
     background-size: 2000px 100%;
     animation: shimmer 1.5s infinite;
 }
+
 .trash-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: red;
-    font-size: 1.5rem;
-    margin-left: 10px;
-  }
-  .trash-button:hover {
-    color: darkred;
-  }
-  .edit-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.25rem;
-    margin-right: 0.5rem;
-  }
-  
-  .edit-button:hover {
-    color: #3b82f6;
-  }
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.trash-button:hover {
+  color: darkred;
+}
+
+.edit-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.edit-button:hover {
+  color: #3b82f6;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+li > div:first-child {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+}
+
    
