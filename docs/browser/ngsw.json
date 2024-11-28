@@ -1,0 +1,105 @@
+{
+  "configVersion": 1,
+  "timestamp": 1731587331958,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-2RUFMMNV.js",
+        "/chunk-7A67K276.js",
+        "/chunk-AHHHZ64D.js",
+        "/chunk-G2R5E42L.js",
+        "/chunk-ITW336Y2.js",
+        "/chunk-J4W6OP7L.js",
+        "/chunk-K6SIB5FG.js",
+        "/chunk-SPSKYVGI.js",
+        "/chunk-U53KYGWR.js",
+        "/chunk-VUG7N5NL.js",
+        "/chunk-WFQUEC43.js",
+        "/chunk-WWDWR4PK.js",
+        "/chunk-Z6ZC6BK7.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-5RTL667Y.js",
+        "/manifest.webmanifest",
+        "/polyfills-FFHMD2TL.js",
+        "/styles-GRHLIVVW.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/chunk-2RUFMMNV.js": "483dcb64d9c01206cf3adf07c694095c7ac8cfbb",
+    "/chunk-7A67K276.js": "e7ead406d9bb58704a9d36adfc0e920b6c5f9b33",
+    "/chunk-AHHHZ64D.js": "88ccaeb5cae00c05083363afd4e78320ac9bafa4",
+    "/chunk-G2R5E42L.js": "6fa94a2477280877dfc55d7867d28860f648c4a4",
+    "/chunk-ITW336Y2.js": "2ddd6e98a7f8236b725b8b6adc6cd2fdef37124c",
+    "/chunk-J4W6OP7L.js": "1931e94f18bfb72932ad29b3d6629c5a0bc48e46",
+    "/chunk-K6SIB5FG.js": "220a98c3ce13b34fb35bb1b3a055b512950e855c",
+    "/chunk-SPSKYVGI.js": "cb641e2d0f2497bd4e884e3a46547a5746b23d56",
+    "/chunk-U53KYGWR.js": "9d09b5926f1f7282557575e893f85c0a29ee149d",
+    "/chunk-VUG7N5NL.js": "a5ad5ae09642d6c2bb22343f5ddde2e6342fee7a",
+    "/chunk-WFQUEC43.js": "4b6c2841342717db41f9effff5a746ba7857d1f8",
+    "/chunk-WWDWR4PK.js": "1ab7c7808552545f3cae08149180730d9e6002f5",
+    "/chunk-Z6ZC6BK7.js": "3d5b5484c75517ef5170fe52707398b7c566da46",
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/index.html": "5791287138e136e91817fdfd6e29fd4ce6f673e3",
+    "/main-5RTL667Y.js": "dc3f0e5daa3abad4d808bd618600f0736a876cec",
+    "/manifest.webmanifest": "eea8ffd90cdd38317a73f491c83a52c019460587",
+    "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/styles-GRHLIVVW.css": "fc3a2ad912516172292b54c285be3f2c4aa8c574"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
